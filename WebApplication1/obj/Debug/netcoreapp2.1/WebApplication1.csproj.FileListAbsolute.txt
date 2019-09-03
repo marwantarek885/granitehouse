@@ -35,3 +35,7 @@ C:\Users\student\Documents\respo\summar\granitehouse\WebApplication1\obj\Debug\n
 C:\Users\student\Documents\respo\summar\granitehouse\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Areas\customer\Views\Home\Privacy.g.cshtml.cs
 C:\Users\student\Documents\respo\summar\granitehouse\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewImports.g.cshtml.cs
 C:\Users\student\Documents\respo\summar\granitehouse\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Areas\Customer\Views\_ViewStart.g.cshtml.cs
+C:\Users\student\Documents\respo\summar\granitehouse\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\ProductTypes\index.g.cshtml.cs
+C:\Users\student\Documents\respo\summar\granitehouse\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+C:\Users\student\Documents\respo\summar\granitehouse\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+C:\Users\student\Documents\respo\summar\granitehouse\WebApplication1\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_tablebtnpartial.g.cshtml.cs

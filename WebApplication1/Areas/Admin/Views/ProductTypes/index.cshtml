@@ -1,0 +1,52 @@
+﻿@model IEnumerable<WebApplication1.Models.ProductTypes>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div vlass="row">
+    <div class="col-6">
+        <h2>Product Types</h2>
+
+    </div>
+    <div class="col-6" text-light>
+        <a asp-action="Create"> New Product Type</a>
+
+    </div>
+
+
+</div>
+<h2>Index</h2>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th class="text-right">
+                <label>Operation</label>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+   
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td class="text-right">
+            <partial name="_tablebtnpartial" />
+            </td>
+        </tr>
+
+}
+       
+    </tbody>
+</table>

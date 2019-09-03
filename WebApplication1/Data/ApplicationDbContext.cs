@@ -4,6 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace WebApplication1.Data
 {
     public class ApplicationDbContext : IdentityDbContext
@@ -12,5 +13,8 @@ namespace WebApplication1.Data
             : base(options)
         {
         }
+        public DbSet<Models.ProductTypes> ProductTypes { get; set; }
     }
+
+
 }
